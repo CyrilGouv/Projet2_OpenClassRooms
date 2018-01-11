@@ -5426,8 +5426,7 @@ a {
   transition: .3s; }
 
 .activites .activites-box-table tr:hover {
-  background-color: rgba(222, 228, 232, 0.85);
-  color: #fff; }
+  background-color: rgba(222, 228, 232, 0.85); }
 
 .activites .activites-box-table .participer {
   color: #F85756; }
@@ -5476,6 +5475,10 @@ a {
   animation-timing-function: linear;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1; }
+
+#form-content-label {
+  display: none;
+}
 
 .input {
   position: absolute;
@@ -5661,4 +5664,10 @@ button:focus {
 
 .actu-item-desc a {
   color: #F85756!important;
+}
+
+
+/* 404 page */
+.content404 {
+  height: 70vh;
 }

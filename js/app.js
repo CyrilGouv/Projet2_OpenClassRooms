@@ -77,6 +77,18 @@ $(function() {
     });
 
 
+    // Add in Contact page the format JJ/MM/AAAA to help visitor 
+    $('#dateNaissance').focus(function() {
+        const $this = $(this);
+
+        $this.parent().append('<div class="dateNaissanceHelp" style="color: #E5625C;">JJ/MM/AAAA</div>');
+    });
+
+    $('#dateNaissance').blur(function() {
+        $('.dateNaissanceHelp').remove();
+    });
+
+
 });
 
 

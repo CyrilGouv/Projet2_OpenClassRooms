@@ -5,7 +5,7 @@ Template Name: Actualites
 ?>
 
 <!DOCTYPE html>
-<html lang="<?php language_attributes(); ?>">
+<html <?php language_attributes(); ?>>
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -104,7 +104,7 @@ Template Name: Actualites
     </section>
 
 
-    <section class="actu">
+    <section class="actu content404">
         <div class="container">
             <h2>404</h2>
             <p class="actu-intro">
